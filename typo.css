@@ -1,0 +1,139 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.content-wrapper
+{
+    max-width: 1212px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1
+{
+    font-size: 72px;
+    color: #EFEFEF;
+    letter-spacing: none;
+    line-height: 1.0;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+h2
+{
+    font-size: 56px;
+    color: #2F3438;
+    letter-spacing: normal;
+    line-height: 1.0;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+}
+h3
+{
+    font-size: 48px;
+    color: #2F3438;
+    letter-spacing: normal;
+    line-height: 1.0;
+    font-family: 'Montserrat';
+    margin-top: 0;
+}
+h4
+{
+    font-size: 44px;
+    color: #EFEFEF;
+    letter-spacing: normal;
+    line-height: 1.0;
+    font-family: 'Montserrat';
+    margin-top: 0;
+}
+h5
+{   
+    font-size: 36px;
+    color: #2F3438;
+    letter-spacing: normal;
+    line-height: 1;
+    font-family: 'Montserrat'; 
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+h6
+{
+    font-size: 36px;
+    color: #444444;
+    letter-spacing: normal;
+    line-height: 1.1;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+p
+{
+    font-size: 18px;
+    color: #444444;
+    letter-spacing: normal;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+}
+.primary-button a
+{
+    font-size: 18px;
+    color: #EFEFEF;
+    letter-spacing: normal;
+    line-height: 2;
+    font-family: 'Montserrat';
+}
+.primary-button a:hover
+{
+    color: #D4A64F;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+    h1{
+        font-size: 50px;
+    }
+    p
+    {
+        font-size: 16px;
+    }
+    h2
+    {
+        font-size: 44px;
+    }
+    h6
+    {
+        font-size: 30px;
+    }
+    h5
+    {
+        font-size: 30px;
+        margin-top: 0;
+    }
+}
+
+@media  (max-width:767px){
+
+    h1{
+        font-size: 40px;  
+    }
+    p
+    {
+        font-size: 13px;
+    }
+    h2
+    {
+        font-size: 34px;
+    }
+    h6
+    {
+        font-size: 20px;
+    }
+    h5
+    {
+        font-size: 20px;
+    }
+}

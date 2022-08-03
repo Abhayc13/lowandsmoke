@@ -94,12 +94,26 @@ p
 {
     color: #D4A64F;
 }
-a
+.third-button a
 {
-    text-decoration: underline;
-    text-decoration-color:#D4A64F ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    border: 3px solid #D4A64F;
+    border-radius: 5px;
+    line-height: 1.3;
+    font-size: 25px;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    cursor: pointer;
 }
-
+.third-button a:hover
+{
+    background-color: #D4A64F;
+}
 @media (min-width:768px) and (max-width:1024px){
 
     h1{
@@ -143,6 +157,10 @@ a
     h5
     {
         font-size: 20px;
+    }
+    h4
+    {
+        font-size: 35px;
     }
 }
 @media (min-width:1025px) and (max-width:1225px) {

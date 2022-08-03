@@ -137,9 +137,39 @@
 {
     margin-top: 66px;
 }
-.text8
+.main8
 {
-    margin-top: 230px;
+    position: relative;
+    z-index: 1;
+    padding-top: 230px;
+}
+.main8::after {
+    position: absolute;
+    content: '';
+    background-image: url(./image/bird.jpg);
+    top: 20px;
+    right: 0;
+    max-width: 266px;
+    width: 100%;
+    height: 242px;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main8::before {
+    position: absolute;
+    content: '';
+    background-image: url(./image/tree.jpg);
+    bottom: -177px;
+    left: 0;
+    max-width: 313px;
+    width: 100%;
+    height: 447px;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .slick-dots
 {
@@ -218,6 +248,15 @@ li {
 {
     padding: 180px 83px 220px 70px;
 }
+.card1 a
+{
+    text-decoration: underline;
+    text-decoration-color:#D4A64F ;
+}.card2 a
+{
+    text-decoration: underline;
+    text-decoration-color:#D4A64F ;
+}
 .content-block2
 {
     display: flex;
@@ -241,6 +280,63 @@ li {
 .text10 .primary-button
 {
     padding-top: 10px;
+}
+.text5 p
+{
+    padding: 0 20px;
+}
+.main9
+{
+    display: flex;
+}
+.card14
+{
+    margin-left: 142px;
+}
+.format1
+{
+    text-align: center;
+}
+.main10
+{
+    padding-top: 170px;
+}
+.format2 p
+{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.format2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.format2 input
+{
+    height: 45px;
+    width: 386px;
+}
+.format2 ::placeholder
+{
+   font-size: 22px;
+   color: #CECECE;
+   padding-left: 16px;
+   align-items: center;
+}
+.format3
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.format1 h4
+{
+    color: #2F3438;
+    font-weight: bold;
+}
+.name p
+{
+    color: #333333;
 }
 @media (min-width:0px) and (max-width:480px)
 {
@@ -295,6 +391,31 @@ li {
     {
         margin-top: 0;
     }
+    .format2 input
+    {
+        max-width: 150px;
+        max-height: 30px;
+    }
+    .main10
+    {
+        padding-top: 30px;
+    }
+    .format2 ::placeholder
+    {
+        font-size: 15px;
+    }
+    .main8::before
+    {
+        max-width: 150px;
+        width: 100%;
+        height: 500px;
+    }
+    .main8::after
+    {
+        max-width: 120px;
+        width: 100%;
+        height: 400px;
+    }
 }
 @media (min-width:481px) and (max-width:767px) {
     .main1{
@@ -348,7 +469,23 @@ li {
     {
         margin-top: 0;
     }
-
+    .format2 input
+    {
+        max-width: 170px;
+        max-height: 30px;
+    }
+    .main8::before
+    {
+        max-width: 170px;
+        width: 100%;
+        height: 500px;
+    }
+    .main8::after
+    {
+        max-width: 140px;
+        width: 100%;
+        height: 500px;
+    }
 }
 @media (min-width:768px) and (max-width:1024px) {
     .main1{
@@ -417,6 +554,18 @@ li {
     {
         padding: 0px 0px 0px 0px;
         min-height: auto;
+    }
+    .main8::before
+    {
+        max-width: 180px;
+        width: 100%;
+        height: 500px;
+    }
+    .main8::after
+    {
+        max-width: 160px;
+        width: 100%;
+        height: 400px;
     }
 }
 @media  (max-width:767px){
@@ -511,6 +660,18 @@ li {
     {
         min-height:  215px !important;
     }
+    .format3 .third-button a 
+    {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .format3
+    {
+        margin-top: 25px;
+    }
 }
 @media (min-width:1025px) and (max-width:1440px) {
     .bg-image
@@ -534,6 +695,27 @@ li {
     }.bg-image3
     {
         min-height:  400px !important;
+    }
+    .format2 input
+    {
+        max-width: 300px;
+        max-height: 30px;
+    }
+    .main10
+    {
+        padding-top: 0px;
+    }
+    .format3 .third-button a 
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .format3
+    {
+        margin-top: 40px;
     }
 }
 @media (min-width:0px) and (max-width:480px) {
@@ -582,5 +764,25 @@ li {
     .cards2
     {
         max-width: 550px;
+    }
+}
+@media (min-width:481px) and (max-width:769px){
+    .main10
+    {
+        padding-top: 20px;
+    }
+    .format2 ::placeholder
+    {
+        font-size: 14px;
+    }
+}
+@media (max-width:364px) {
+    .main9
+    {
+        min-height: 670px;
+    }
+    .two-col-container
+    {
+        margin-top: -660px;
     }
 }

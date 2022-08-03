@@ -338,6 +338,7 @@ li {
 {
     color: #333333;
 }
+
 @media (min-width:0px) and (max-width:480px)
 {
     .main1{

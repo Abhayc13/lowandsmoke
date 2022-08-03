@@ -163,6 +163,7 @@ li {
     border: 1px solid #6D6D6D;
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .slick-list.draggable {
